@@ -1,26 +1,28 @@
-<!Documentos html>
+<!DOCTYPE html>
 
-<html lang="es"
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ModaExpress - Contacto</title>
 
 </head>
+
 <body>
-    <head>
+    <header>
         <h1>ModaExpress</h1>
-         <p>Ropa deportiva cómoda para tu día a día</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="productos.html">Productoso</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-    </head>
-    
+        <p>Ropa deportiva cómoda para tu día a día</p>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <main>
         <section id="datos-contacto">
             <h2>Datos de Contacto</h2>
@@ -33,19 +35,81 @@
 
         <section id="horarios">
             <ol>
-                <li>Lunea a Viernes: 9:00 hs  a 18:00 hs</li>
+                <li>Lunea a Viernes: 9:00 hs a 18:00 hs</li>
                 <li>Sábados: 9:00 hs a 13:00 hs</li>
             </ol>
         </section>
+
+        <section id="formulario-contacto">
+            <h2>Complete el formulario de Consulta</h2>
+            <p>Completa por favor el formulario para saber mas informacién acerca de nuestro stock</p>
+            <form action="#" method="get">
+                <p>
+                    <label for="nombre">Nombre y Apellido: </label><br>
+
+                    <input type="text" id="nombre" name="nombre" placeholder=" Ejemplo: Barry Allen" required
+                        minlength="3" autofocus>
+                </p>
+
+                <p>
+                    <label for="correo">Correo Eléctronico: </label><br>
+
+                    <input type="email" id="correo" name="correo"
+                        placeholder=" Ejemplo: barryallen@gmail.com o barryalleng@hotmail.com" required>
+                </p>
+
+                <p>
+                    <label for="telefono">Teléfono Celular: </label><br>
+
+                    <input type="tel" id="telefono" name="telefono" placeholder=" Ejemplo: 0981 698 457" required>
+                </p>
+
+                <p>
+                    <label for="cantidad">Elegi la cantidad de prendas que necesitas consultar: </label><br>
+
+                    <input type="number" id="cantidad" name="cantidad" min="1" max="65"
+                        placeholder="Ingrese la cantidad">
+                </p>
+
+                <p>
+                    <label for="fecha">Fecha para que se contacte: </label><br>
+
+                    <input type="date" id="fecha" name="fecha">
+                </p>
+
+                <p>
+                    <label for="titulo-consulta">Titulo: </label><br>
+
+                    <input type="text" id="titulo-consulta" name="titulo-consulta"
+                        placeholder="Consula sobre talles, colores, envios etc">
+                </p>
+
+                <p>
+                    <label for="mensaje">Mensaje: </label><br>
+
+                    <textarea id="mensaje" name="mensaje" rows="5" cols="32" placeholder="Escriba su mensaje aquì"
+                        required>
+                    </textarea>
+                </p>
+                <p>
+                    <button type="submit">Enviar su consulta</button>
+                    <button type="reset">Limpiar el formulario y empiza de nuevo.</button>
+                </p>
+
+
+            </form>
+        </section>
+
         <section id="ubicacion">
             <h2>Cómo llegar</h2>
             <p>
-                Nuestro local está ubicado sobre la Avenida Deportiva, con fácil acceso en transporte público y estacionamiento cercano.
+                Nuestro local está ubicado sobre la Avenida Deportiva, con fácil acceso en transporte público y
+                estacionamiento cercano.
             </p>
             <p>
                 Encontranos en <a href="https://www.google.com/maps" target="_blank">Google Maps</a>
                 buscando "ModaExpress"
-             </p>
+            </p>
         </section>
         <aside>
             <h3>¿Tenés dudas?</h3>
@@ -54,8 +118,9 @@
     </main>
 
     <footer>
-            <p>&copy ; 2026 ModaExpress. Todos los derechos reservados.</p>
-            <p>Seguinos en <a href="https://www.instagram.com" target="_blank">instagram</a></p>
-        </footer>
-  </body>
-</html>   
+        <p>&copy ; 2026 ModaExpress. Todos los derechos reservados.</p>
+        <p>Seguinos en <a href="https://www.instagram.com" target="_blank">instagram</a></p>
+    </footer>
+</body>
+
+</html>

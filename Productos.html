@@ -1,55 +1,153 @@
-<!Documentos html>
-
+```html
+<!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta name"viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ModaExpress - Productos</title>
 </head>
+
 <body>
     <header>
         <h1>ModaExpress</h1>
-        <h1>ModaExpress</h1>
-            <p>Ropa deportiva cómoda para tu día a día</p>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="productos.html">Productoso</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
-            </nav>
-        </header>
+        <p>Ropa deportiva cómoda para tu día a día</p>
 
-        <main>
-            <section id="catalogo">
-                <h2>Catálogo</h2>
-                <article>
-                    <h3>Zapatillas Deportivas</h3>
-                    <img src ="imagenes/zapatillas.jpg" alt="Zpatillas deportivas ModaExpress" width="400">
-                    <p>Zpatillas livianas y resistentes, ideales para correr o entrenar en el gimnasio.</p>
-                </article>
-            </section>
-            <section id="talles">
-                <h2>Talles Disponibles</h2>
-                <ol>
-                    <li>37</li>
-                    <li>38</li>
-                    <li>39</li>
-                    <li>40</li>
-                </ol>
-            </section>
-            <aside>
-                <h3>¡Últimas unidades!</h3>
-                <p> Las zapatillas deportivas están agotándose. COnsulta stock disponible antes de que se acaben.</p>
-            </aside>
-        </main>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Nosotros.html">Nosotros</a></li>
+                <li><a href="Productos.html">Productos</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <footer>
-            <p>&copy ; 2026 ModaExpress. Todos los derechos reservados.</p>
-            <p>Seguinos en <a href="https://www.instagram.com" target="_blank">instagram</a></p>
-        </footer>
+    <main>
+        <section id="catalogo">
+            <h2>Catálogo</h2>
 
+            <article>
+                <h3>Zapatillas deportivas</h3>
+
+                <img src="zapatillas.jpg" alt="Zapatillas deportivas ModaExpress" width="400">
+
+                <p>
+                    Zapatillas livianas y resistentes, ideales para correr
+                    o entrenar en el gimnasio.
+                </p>
+            </article>
+        </section>
+
+        <section id="talles">
+            <h2>Talles disponibles</h2>
+
+            <ol>
+                <li>37</li>
+                <li>38</li>
+                <li>39</li>
+                <li>40</li>
+            </ol>
+        </section>
+
+        <aside>
+            <h3>¡Últimas unidades!</h3>
+            <p>
+                Las zapatillas deportivas están agotándose.
+                Consultá el stock disponible antes de que se acaben.
+            </p>
+        </aside>
+
+        <section id="tabla-productos">
+            <h2>Información de nuestros productos</h2>
+
+            <p>
+                Consultá los precios, talles y disponibilidad
+                de nuestros productos deportivos.
+            </p>
+
+            <table>
+                <caption>Catálogo de productos de ModaExpress</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Producto</th>
+                        <th scope="col">Categoría</th>
+                        <th scope="col">Talles</th>
+                        <th scope="col">Precio (Gs.)</th>
+                        <th scope="col">Disponibilidad</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Zapatillas deportivas</th>
+                        <td>Calzado</td>
+                        <td>37, 38, 39 y 40</td>
+                        <td>250.000</td>
+                        <td>Disponible</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Remera deportiva</th>
+                        <td>Indumentaria</td>
+                        <td>S, M, L y XL</td>
+                        <td>75.000</td>
+                        <td>Disponible</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Top deportivo</th>
+                        <td>Indumentaria</td>
+                        <td>S, M y L</td>
+                        <td>85.000</td>
+                        <td>Disponible</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Calza deportiva</th>
+                        <td>Indumentaria</td>
+                        <td>S, M y L</td>
+                        <td>120.000</td>
+                        <td>Stock limitado</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Short deportivo</th>
+                        <td>Indumentaria</td>
+                        <td>M, L y XL</td>
+                        <td>95.000</td>
+                        <td>Disponible</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Conjunto deportivo</th>
+                        <td>Conjunto</td>
+                        <td>S, M y L</td>
+                        <td>180.000</td>
+                        <td>Disponible</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="5">El precio y inventario està sujeto a modificaciones, favor consultar! </td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 ModaExpress. Todos los derechos reservados.</p>
+
+        <p>
+            Seguinos en
+            <a href="https://www.instagram.com" target="_blank">
+                Instagram
+            </a>
+        </p>
+    </footer>
 </body>
-</html>
 
+</html>
+```
